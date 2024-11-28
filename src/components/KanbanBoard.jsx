@@ -1,7 +1,7 @@
 import React from 'react';
 import TicketCard from './TicketCard';
 import Dropdown from './Dropdown';
-import './KanbanBoard.css'; // Pure CSS
+import './KanbanBoard.css'; 
 
 const KanbanBoard = ({ tickets, users, grouping, ordering, onGroupingChange, onOrderingChange }) => {
   // Helper functions to group and sort

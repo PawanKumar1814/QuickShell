@@ -39,7 +39,7 @@ const App = () => {
     <div>
         <KanbanBoard
           tickets={tickets}
-          users={users} // Pass users to the KanbanBoard
+          users={users} 
           grouping={grouping}
           ordering={ordering}
           onGroupingChange={handleGroupingChange}
